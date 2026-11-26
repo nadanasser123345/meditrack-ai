@@ -1,0 +1,11 @@
+Patient_ID,Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope,HeartDisease,Kaggle_Benchmark_Source
+1,62,M,ASY,145,240,1,ST,125,Y,2.2,Flat,1,Kaggle: Heart Disease Dataset (UCI/FedCS)
+2,58,F,NAP,135,210,0,Normal,148,N,0.8,Up,1,Kaggle: Cardiovascular Disease Dataset
+3,47,M,ATA,125,310,0,Normal,162,N,0.0,Up,1,Kaggle: Heart Disease UCI Benchmark
+4,70,M,ASY,110,195,1,LVH,115,Y,3.1,Flat,1,Kaggle: Heart Failure Clinical Records
+5,64,F,NAP,138,260,0,ST,130,N,1.4,Flat,1,Kaggle: Heart Disease Prediction
+6,54,M,ASY,150,285,1,ST,138,Y,2.5,Flat,1,Kaggle: Heart Disease Dataset (UCI/FedCS)
+7,51,F,ATA,100,180,0,Normal,168,N,0.2,Up,0,Kaggle: Cardiovascular Disease Dataset
+8,67,M,ASY,130,225,0,LVH,120,Y,2.0,Flat,1,Kaggle: Heart Failure Clinical Records
+9,60,F,NAP,115,230,1,LVH,140,N,1.6,Flat,1,Kaggle: Heart Disease UCI Benchmark
+10,59,M,ASY,128,490,1,ST,132,Y,2.8,Flat,1,Kaggle: Heart Disease Dataset (UCI/FedCS)
