@@ -1,0 +1,360 @@
+[
+  {
+    "id": 1,
+    "full_name": "إبراهيم عبد الحميد محمود",
+    "age": 62,
+    "gender": "ذكر",
+    "blood_type": "A+",
+    "phone": "01012345678",
+    "cardiac_history": {
+      "chronic_conditions": "قصور مزمن في الشريان التاجي، ارتفاع ضغط الدم من الدرجة الثانية (منذ 2017)، سكري النوع الثاني (منذ 2015).",
+      "surgical_history": "قسطرة علاجية وتركيب دعامتين دوائيتين (Drug-Eluting Stents) في الشريان التاجي الأيسر (LAD) في مايو 2022 بمستشفى القلب.",
+      "ejection_fraction": "48%",
+      "lifestyle": "مدخن سابق (أقلع في 2022 بعد الجلطة)، قليل الحركة، يتبع حمية قليلة الملح.",
+      "last_ecg_summary": "Sinus rhythm with old anterior wall MI changes, Q-waves in V1-V3."
+    },
+    "current_medications": [
+      {"name": "Plavix (Clopidogrel)", "dose": "75mg", "frequency": "مرة واحدة يومياً ظهراً", "purpose": "مضاد تجلط لمنع انسداد الدعامات"},
+      {"name": "Concor (Bisoprolol)", "dose": "5mg", "frequency": "مرة واحدة صباحاً", "purpose": "تنظيم ضربات القلب وتخفيض ضغط الدم"},
+      {"name": "Ator (Atorvastatin)", "dose": "40mg", "frequency": "مرة واحدة مساءً قبل النوم", "purpose": "خفض الكوليسترول وتثبيت بطانة الشرايين"},
+      {"name": "Lasix (Furosemide)", "dose": "20mg", "frequency": "قرص صباحاً عند اللزوم", "purpose": "مدر بول لمنع ارتشاح السوائل في القدمين"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Aspirin (الأسبرين ومسكنات NSAIDs)",
+        "severity": "شديدة (Severe)",
+        "reaction": "حساسية مفرطة ونزيف معوي وقرحة معدية حادة عام 2021 (ممنوع منعاً باتاً تناول الأسبرين أو مضادات الالتهاب غير الستيرويدية مثل Cataflam/Brufen)."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2023-11-10",
+        "doctor": "د. حازم النجار (استشاري القلب)",
+        "complaint": "ثقل بالصدر عند صعود السلم، مع تورم خفيف بالكاحلين.",
+        "findings": "ضغط الدم 145/90، نبض 72 منتظم، أصوات القلب طبيعية دون لغط، وظائف الكلى (Creatinine: 1.4 mg/dL).",
+        "action": "تم رفع جرعة الكابوتين وتنبيه المريض بالراحة والالتزام بمدر البول ومراقبة الوزن يومياً."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "full_name": "نادية السيد أحمد",
+    "age": 58,
+    "gender": "أنثى",
+    "blood_type": "O+",
+    "phone": "01198765432",
+    "cardiac_history": {
+      "chronic_conditions": "رجفان أذيني غير مستمر (Paroxysmal Atrial Fibrillation)، ضغط دم مرتفع، سمنة مفرطة.",
+      "surgical_history": "لا توجد جراحات قلبية سابقة، عملية استئصال مرارة بالمنظار سنة 2019.",
+      "ejection_fraction": "55%",
+      "lifestyle": "ربة منزل، غير مدخنة، تشكو من صعوبة صعود الدرج.",
+      "last_ecg_summary": "Irregular rhythm consistent with Atrial Fibrillation, controlled ventricular response."
+    },
+    "current_medications": [
+      {"name": "Xarelto (Rivaroxaban)", "dose": "20mg", "frequency": "مرة واحدة يومياً مع وجبة العشاء", "purpose": "مضاد تجلط قوي لمنع جلطات المخ الناتجة عن الرفرفة"},
+      {"name": "Cordarone (Amiodarone)", "dose": "200mg", "frequency": "قرص واحد يومياً", "purpose": "تثبيت انتظام ضربات القلب"},
+      {"name": "Exforge (Amlodipine/Valsartan)", "dose": "5/160mg", "frequency": "قرص صباحاً", "purpose": "علاج ضغط الدم المرتفع"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin (البنسلين ومشتقاته)",
+        "severity": "شديدة جداً (Anaphylaxis)",
+        "reaction": "صدمة تحسسية وضيق تنفس حاد وتورم بالوجه عام 2015."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-02-14",
+        "doctor": "د. حازم النجار",
+        "complaint": "خفقان سريع مفاجئ مع دوار خفيف.",
+        "findings": "ضغط الدم 135/85، نبض 105 غير منتظم، تم عمل فحص سيولة ورسم قلب فوري.",
+        "action": "تثبيت جرعة الزاريلتو ومراجعة وظائف الغدة الدرقية والكبد."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "full_name": "طارق حسني مصطفى",
+    "age": 47,
+    "gender": "ذكر",
+    "blood_type": "B+",
+    "phone": "01234567890",
+    "cardiac_history": {
+      "chronic_conditions": "قصور شريان تاجي مبكر، ارتفاع حاد في الدهون والكوليسترول العائلي (Familial Hypercholesterolemia).",
+      "surgical_history": "قسطرة استكشافية في 2023 أظهرت ضيق بنسبة 40% في الشريان التاجي الأيمن (علاج تحفظي بدون دعامات).",
+      "ejection_fraction": "60%",
+      "lifestyle": "مهندس، عمل مكتبي ذو توتر مرتفع، مدخن سابق للشيشة.",
+      "last_ecg_summary": "Normal sinus rhythm, borderline T-wave inversions in lead III."
+    },
+    "current_medications": [
+      {"name": "Lipitor (Atorvastatin)", "dose": "80mg", "frequency": "قرص مساءً", "purpose": "خفض الكوليسترول الضار LDL"},
+      {"name": "Ezetrol (Ezetimibe)", "dose": "10mg", "frequency": "قرص صباحاً", "purpose": "منع امتصاص الكوليسترول"},
+      {"name": "Nitromak Retard", "dose": "2.5mg", "frequency": "قرص مرتين يومياً", "purpose": "توسيع شرايين القلب ومنع نوبات الذبحة"}
+    ],
+    "allergies": [
+      {
+        "allergen": "صبغة الأشعة المقطعية (Iodinated Radiocontrast Media)",
+        "severity": "متوسطة",
+        "reaction": "طفح جلدي وحكة واحمرار شديد بعد أشعة صبغة عام 2020."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-05-18",
+        "doctor": "د. حازم النجار",
+        "complaint": "نغزات متكررة بالصدر أثناء المشي السريع.",
+        "findings": "ضغط الدم 125/80، النبض 68 منتظم، تحليل الكوليسترول LDL انخفض إلى 95 mg/dL.",
+        "action": "المتابعة بنظام غذائي قاسي وتجنب التوتر والإجهاد العنيف."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "full_name": "حسن كامل مرسي",
+    "age": 70,
+    "gender": "ذكر",
+    "blood_type": "AB+",
+    "phone": "01099887766",
+    "cardiac_history": {
+      "chronic_conditions": "فشل احتقاني بالقلب (Heart Failure Stage C)، ضيق صمام أورطي خفيف، قصور كلوي مزمن.",
+      "surgical_history": "جراحة قلب مفتوح وترقيع شرايين تاجية (CABG x 3) عام 2016.",
+      "ejection_fraction": "35%",
+      "lifestyle": "متقاعد، يلتزم بوزن نفسه يومياً لمراقبة احتباس السوائل.",
+      "last_ecg_summary": "Left bundle branch block (LBBB), heart rate 65 bpm."
+    },
+    "current_medications": [
+      {"name": "Entresto (Sacubitril/Valsartan)", "dose": "24/26mg", "frequency": "مرتين يومياً", "purpose": "حماية عضلة القلب وتقليل نوبات الوفاة في فشل القلب"},
+      {"name": "Aldactone (Spironolactone)", "dose": "25mg", "frequency": "صباحاً", "purpose": "مدر بول حافظ للبوتاسيوم ومضاد للتليف القلبي"},
+      {"name": "Jardiance (Empagliflozin)", "dose": "10mg", "frequency": "صباحاً", "purpose": "دعم عضلة القلب وخفض معدل دخول المستشفى"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Sulfa drugs (مركبات السلفا والمضادات الحيوية المشتقة منها)",
+        "severity": "شديدة",
+        "reaction": "احمرار بالجلد وحمى وتأثر الصفائح الدموية."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-08-01",
+        "doctor": "د. حازم النجار",
+        "complaint": "ضيق تنفس ليلي يوقظه من النوم (Orthopnea).",
+        "findings": "ضغط الدم 110/70، وذمة ارتشاحية بالكاحلين (+2)، كفاءة القلب 35%.",
+        "action": "تعديل جرعة مدرات البول وتشديد تقليل استهلاك السوائل لأقل من 1.5 لتر يومياً."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "full_name": "فوزية توفيق عبد العليم",
+    "age": 64,
+    "gender": "أنثى",
+    "blood_type": "O-",
+    "phone": "01555443322",
+    "cardiac_history": {
+      "chronic_conditions": "ارتفاع ضغط الدم الشرياني المقاوم (Resistant Hypertension)، تصلب شرايين، قلق واضطراب نوم.",
+      "surgical_history": "تركيب منظم ضربات قلب دائم (Permanent Pacemaker) عام 2021 لعلاج بطء النبض الحاد.",
+      "ejection_fraction": "52%",
+      "lifestyle": "ربة منزل، ممنوعة من التعرض للمجالات المغناطيسية العالية أو أشعة الرنين المغناطيسي غير المتوافقة.",
+      "last_ecg_summary": "Paced ventricular rhythm, pacemaker functioning normally."
+    },
+    "current_medications": [
+      {"name": "Natrilix SR (Indapamide)", "dose": "1.5mg", "frequency": "صباحاً", "purpose": "مدر بول لطيف لضغط الدم"},
+      {"name": "Twynsta (Telmisartan/Amlodipine)", "dose": "80/5mg", "frequency": "مساءً", "purpose": "تخفيض الضغط المقاوم وحماية الشرايين"},
+      {"name": "Baby Aspirin", "dose": "81mg", "frequency": "يومياً بعد الغداء", "purpose": "وقاية ضد الجلطات"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Statins (مركبات الاستاتين التقليدية بجرعات عالية)",
+        "severity": "متوسطة",
+        "reaction": "ألم ووهن شديد بالعضلات وارتفاع إنزيم CPK."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-09-12",
+        "doctor": "د. حازم النجار",
+        "complaint": "فحص دوري لكفاءة بطارية منظم ضربات القلب والضغط.",
+        "findings": "ضغط الدم 138/84، نبض المنظم ثابت على 60، بطارية المنظم تعمل بحالة ممتازة ومتبقي 6 سنوات.",
+        "action": "تثبيت العلاج وإعادة رسم القلب بعد 6 أشهر."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "full_name": "محمود عثمان الشناوي",
+    "age": 54,
+    "gender": "ذكر",
+    "blood_type": "A-",
+    "phone": "01033221100",
+    "cardiac_history": {
+      "chronic_conditions": "متلازمة الشريان التاجي الحادة السابقة (Post-MI)، ارتفاع كوليسترول الدم، سكري غير منتظم.",
+      "surgical_history": "توسيع الشريان التاجي الخلفي ببالون دوائي (Drug-Coated Balloon) عام 2023.",
+      "ejection_fraction": "45%",
+      "lifestyle": "تاجر، كثير السفر، مدخن شره (علبة ونصف يومياً).",
+      "last_ecg_summary": "Inferior ischemia with T-wave inversion in II, III, aVF."
+    },
+    "current_medications": [
+      {"name": "Brilinta (Ticagrelor)", "dose": "90mg", "frequency": "مرتين يومياً", "purpose": "مضاد صفائح قوي لحماية الشرايين الموسعة"},
+      {"name": "Concor (Bisoprolol)", "dose": "10mg", "frequency": "صباحاً", "purpose": "حماية عضلة القلب وخفض الجهد والنبض"},
+      {"name": "Crestor (Rosuvastatin)", "dose": "20mg", "frequency": "مساءً", "purpose": "تنظيف الشرايين من الترسبات الدهنية"}
+    ],
+    "allergies": [
+      {
+        "allergen": "أدوية الضغط من عائلة مثبطات ACE (كابوتين/إنالابريل)",
+        "severity": "شديدة (Angioedema)",
+        "reaction": "تورم حاد باللسان والشفتين وسعال جاف تحسسي شديد ومستمر."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-06-20",
+        "doctor": "د. حازم النجار",
+        "complaint": "ألم عاصر بالصدر عند بذل مجهود خفيف وتدخين.",
+        "findings": "الضغط 150/95، النبض 80، تم تحذير المريض بضرورة الإقلاع الفوري عن التدخين.",
+        "action": "إضافة نيتروماك عند اللزوم، ومتابعة الدهون وظائف الكلى."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "full_name": "منى سامي عبد العزيز",
+    "age": 51,
+    "gender": "أنثى",
+    "blood_type": "B-",
+    "phone": "01122334455",
+    "cardiac_history": {
+      "chronic_conditions": "ارتجاع متوسط في الصمام الميترالي (Mitral Valve Regurgitation)، أنيميا فقر دم مزمنة.",
+      "surgical_history": "لا توجد جراحات سابقة، متابعة سنوية بالموجات الصوتية (Echocardiogram).",
+      "ejection_fraction": "58%",
+      "lifestyle": "معلمة مدرسة، تشكو من إجهاد سريع عند الوقوف الطويل بالشرح.",
+      "last_ecg_summary": "Sinus tachycardia, rate 95 bpm, no ischemic changes."
+    },
+    "current_medications": [
+      {"name": "Inderal (Propranolol)", "dose": "10mg", "frequency": "مرتين يومياً", "purpose": "تهدئة سرعة ضربات القلب والخفقان"},
+      {"name": "Feroglobin (Iron Complex)", "dose": "كبسولة", "frequency": "مرة واحدة يومياً بعد الغداء", "purpose": "علاج الأنيميا لتقليل العبء على القلب"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Codeine ومسكنات الترامادول والأفيونيات",
+        "severity": "متوسطة إلى شديدة",
+        "reaction": "هبوط حاد في الضغط وقيء مستمر واضطراب في الوعي."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-07-15",
+        "doctor": "د. حازم النجار",
+        "complaint": "خفقان مستمر وتسارع في نبضات القلب مع هبوط.",
+        "findings": "ضغط الدم 100/65، نبض 98، صوت لغط انقباضي خفيف على الصمام الميترالي.",
+        "action": "فحص الهيموجلوبين ومتابعة صدى القلب بعد 6 أشهر."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "full_name": "سمير لطفي الجوهري",
+    "age": 67,
+    "gender": "ذكر",
+    "blood_type": "AB-",
+    "phone": "01288776655",
+    "cardiac_history": {
+      "chronic_conditions": "مريض مركب صمام قلب معدني بديل (Mechanical Aortic Valve)، رجفان أذيني مزمن.",
+      "surgical_history": "جراحة استبدال الصمام الأورطي بصمام ميكانيكي (St. Jude Valve) عام 2018.",
+      "ejection_fraction": "50%",
+      "lifestyle": "متقاعد، يلتزم بتحليل سيولة الدم الشهري (INR) للمحافظة على معدل بين 2.5 و 3.5.",
+      "last_ecg_summary": "Atrial fibrillation with click sound of mechanical valve audible."
+    },
+    "current_medications": [
+      {"name": "Marevan (Warfarin)", "dose": "5mg", "frequency": "يومياً الساعة 6 مساءً (حسب تحليل INR)", "purpose": "مضاد تجلط إجباري لمنع تجلط الدم على الصمام الميكانيكي"},
+      {"name": "Lanoxin (Digoxin)", "dose": "0.25mg", "frequency": "قرص صباحاً 5 أيام أسبوعياً", "purpose": "السيطرة على سرعة استجابة البطين في الرفرفة"}
+    ],
+    "allergies": [
+      {
+        "allergen": "مسكنات NSAIDs (الفولتارين والبروفين والكتافلام)",
+        "severity": "خطر موت ونزيف حاد (Extreme Risk)",
+        "reaction": "ممنوع قطعياً؛ يسبب نزيفاً داخلياً مميتاً عند تداخله مع الوارفارين."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-09-01",
+        "doctor": "د. حازم النجار",
+        "complaint": "مراجعة دورية لنسبة السيولة INR وظهور كدمات زرقاء خفيفة بالساق.",
+        "findings": "تحليل السيولة الأخير INR: 3.2 (ضمن النطاق العلاجي المطلوب)، الضغط 130/80.",
+        "action": "تثبيت جرعة الوارفارين، والتحذير من الخضراوات الورقية الغنية بفيتامين K."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "full_name": "عبير فاروق عبد الرحمن",
+    "age": 60,
+    "gender": "أنثى",
+    "blood_type": "O+",
+    "phone": "01044556677",
+    "cardiac_history": {
+      "chronic_conditions": "اعتلال عضلة القلب الضخامي الوراثي (Hypertrophic Cardiomyopathy - HCM)، سكري النوع الثاني.",
+      "surgical_history": "لا توجد جراحات، فحص دوري بالرنين المغناطيسي على عضلة القلب.",
+      "ejection_fraction": "65% (فرط انقباض)",
+      "lifestyle": "ربة منزل، ممنوعة تماماً من الجري أو المجهود المفاجئ العنيف.",
+      "last_ecg_summary": "Left ventricular hypertrophy with massive deep T-wave inversions across precordial leads."
+    },
+    "current_medications": [
+      {"name": "Dilatrend (Carvedilol)", "dose": "25mg", "frequency": "مرتين يومياً", "purpose": "تهدئة تضخم العضلة وتسهيل تدفق الدم في مخرج البطين"},
+      {"name": "Januvia (Sitagliptin)", "dose": "100mg", "frequency": "صباحاً", "purpose": "ضبط مستوى السكر التراكمي بدون هبوط مفاجئ"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Aspirin ومشتقات حمض الساليسيليك",
+        "severity": "شديدة",
+        "reaction": "ضيق تنفس تحسسي وطفح جلدي عام 2018."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-10-05",
+        "doctor": "د. حازم النجار",
+        "complaint": "شعور بالإغماء عند الوقوف السريع من السرير.",
+        "findings": "الضغط 115/75، النبض 64، الإيكو يظهر زيادة سمك الجدار الفاصل لـ 18 مم.",
+        "action": "شرب سوائل كافية بانتظام وتجنب الجفاف ومدرات البول العنيفة."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "full_name": "عادل فتحي درويش",
+    "age": 59,
+    "gender": "ذكر",
+    "blood_type": "A+",
+    "phone": "01211223344",
+    "cardiac_history": {
+      "chronic_conditions": "قصور شرايين تاجية متعددة، ارتفاع دهون ثلاثية شديد (Triglycerides > 500)، تضخم بروستاتا حميد.",
+      "surgical_history": "تركيب 3 دعامات دوائية بالقلب (LAD, RCA, LCx) على مرحلتين عامي 2020 و 2022.",
+      "ejection_fraction": "52%",
+      "lifestyle": "محاسب قانوني، قليل الحركة، يتبع حمية نباتية حديثاً.",
+      "last_ecg_summary": "Sinus rhythm, extensive non-specific ST-T wave changes."
+    },
+    "current_medications": [
+      {"name": "Plavix (Clopidogrel)", "dose": "75mg", "frequency": "ظهراً", "purpose": "حماية الدعامات الثلاثة من التجلط المفاجئ"},
+      {"name": "Vascepa (Icosapent ethyl)", "dose": "2g", "frequency": "مرتين يومياً مع الوجبات", "purpose": "تخفيض الدهون الثلاثية الخطيرة وحماية الشرايين"},
+      {"name": "Cardura (Doxazosin)", "dose": "4mg", "frequency": "قبل النوم", "purpose": "تخفيض الضغط وتسهيل التبول"}
+    ],
+    "allergies": [
+      {
+        "allergen": "Sulfa Antibiotics (مركبات السلفا والسبترين)",
+        "severity": "شديدة (Stevens-Johnson Risk)",
+        "reaction": "تقشر جلدي والتهاب بالغشاء المخاطي عام 2016."
+      }
+    ],
+    "past_visits": [
+      {
+        "date": "2024-11-01",
+        "doctor": "د. حازم النجار",
+        "complaint": "فحص سنوي روتيني للدعامات وكفاءة الدهون الثلاثية.",
+        "findings": "ضغط الدم 128/82، نبض 70، الدهون الثلاثية انخفضت إلى 210 mg/dL.",
+        "action": "الاستمرار على العلاج الدوائي مع إجراء اختبار جهد بعد 3 أشهر."
+      }
+    ]
+  }
+]
