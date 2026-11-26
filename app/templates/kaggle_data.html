@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card card-custom p-4 bg-white mb-4">
+    <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-3">
+        <div>
+            <span class="badge bg-dark fs-6 mb-1"><i class="fa-solid fa-database text-warning me-1"></i> Open-Source Dataset Integration</span>
+            <h2 class="fw-bold mb-0">بيانات Kaggle المعيارية لأمراض القلب (Heart Disease Benchmark)</h2>
+            <p class="text-secondary small mb-0">المصدر: Kaggle UCI Heart Disease Dataset & Clinical Records</p>
+        </div>
+        <a href="/" class="btn btn-outline-secondary"><i class="fa-solid fa-arrow-right me-1"></i> العودة للرئيسية</a>
+    </div>
+
+    <div class="alert alert-info py-2 small mb-4">
+        <i class="fa-solid fa-circle-info me-1"></i> <strong>دليل المتغيرات الطبية للدكتور في المناقشة:</strong>
+        <br>
+        <strong>Age:</strong> السن | 
+        <strong>ChestPainType:</strong> نوع ألم الصدر (ASY: لا عرضي/ذبحة صامتة, NAP: ألم غير نمطي, ATA: ألم ذبحي) | 
+        <strong>RestingBP:</strong> ضغط الدم وقت الراحة | 
+        <strong>Cholesterol:</strong> مستوى الكوليسترول الكلي | 
+        <strong>FastingBS:</strong> سكر صائم (>120 mg/dl) | 
+        <strong>RestingECG:</strong> رسم القلب (Normal, ST, LVH تضخم بطين) | 
+        <strong>HeartDisease:</strong> (1 = مصاب بمرض قلبي مثبت، 0 = سليم)
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered text-center align-middle font-monospace small">
+            <thead class="table-dark">
+                <tr>
+                    <th>Patient #</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>ChestPain</th>
+                    <th>RestingBP</th>
+                    <th>Cholesterol</th>
+                    <th>FastingBS</th>
+                    <th>RestingECG</th>
+                    <th>MaxHR</th>
+                    <th>ExerciseAngina</th>
+                    <th>Oldpeak</th>
+                    <th>ST_Slope</th>
+                    <th>Status</th>
+                    <th>Kaggle Source</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                <tr class="{% if row.HeartDisease == '1' %}table-danger-subtle{% else %}table-success-subtle{% endif %}">
+                    <td><strong class="text-primary">#{{ row.Patient_ID }}</strong></td>
+                    <td>{{ row.Age }}</td>
+                    <td><span class="badge {% if row.Sex == 'M' %}bg-primary{% else %}bg-danger{% endif %}">{{ row.Sex }}</span></td>
+                    <td><span class="badge bg-secondary">{{ row.ChestPainType }}</span></td>
+                    <td>{{ row.RestingBP }} mmHg</td>
+                    <td><strong class="{% if row.Cholesterol|int > 240 %}text-danger{% endif %}">{{ row.Cholesterol }}</strong></td>
+                    <td>{{ row.FastingBS }}</td>
+                    <td><span class="badge bg-info-subtle text-dark">{{ row.RestingECG }}</span></td>
+                    <td>{{ row.MaxHR }} bpm</td>
+                    <td>{{ row.ExerciseAngina }}</td>
+                    <td>{{ row.Oldpeak }}</td>
+                    <td>{{ row.ST_Slope }}</td>
+                    <td>
+                        {% if row.HeartDisease == '1' %}
+                        <span class="badge bg-danger"><i class="fa-solid fa-heart-crack"></i> Cardiac Disease</span>
+                        {% else %}
+                        <span class="badge bg-success"><i class="fa-solid fa-shield-heart"></i> Low Risk</span>
+                        {% endif %}
+                    </td>
+                    <td class="text-start"><small class="text-muted">{{ row.Kaggle_Benchmark_Source }}</small></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="border-top pt-3 mt-3 d-flex justify-content-between align-items-center">
+        <span class="text-muted small">تم تحميل البيانات مباشرة من ملف: <code>data/kaggle_heart_disease_benchmark.csv</code></span>
+        <a href="/" class="btn btn-danger fw-bold"><i class="fa-solid fa-stethoscope me-1"></i> استعراض السجلات السريرية والـ AI</a>
+    </div>
+</div>
+{% endblock %}
